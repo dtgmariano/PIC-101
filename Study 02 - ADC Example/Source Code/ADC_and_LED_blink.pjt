@@ -1,0 +1,24 @@
+[PROJECT]
+Target=C:\Users\Daniel\Documents\GitHub\PIC-101\Study 02 - ADC Example\Source Code\ADC_and_LED_blink.hex
+Development_Mode=
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+Processor=0x4550
+[C:\Users\Daniel\Documents\GitHub\PIC-101\Study 02 - ADC Example\Source Code\ADC_and_LED_blink]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Users\Daniel\Documents\GitHub\PIC-101\Study 02 - ADC Example\Source Code\ADC_and_LED_blink.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\Users\Daniel\Documents\GitHub\PIC-101\Study 02 - ADC Example\Source Code\ADC_and_LED_blink
+[Opened Files]
+1=ADC_and_LED_blink.c
+2=

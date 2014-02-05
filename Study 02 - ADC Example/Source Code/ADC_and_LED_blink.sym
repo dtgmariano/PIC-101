@@ -1,0 +1,57 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     signal_reading
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_HIGH
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBE     CCP_1_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0004  main
+0004  @cinit
+
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\Daniel\Documents\GitHub\PIC-101\Study 02 - ADC Example\Source Code\
+
+Project Files:
+    ADC_and_LED_blink.c
+    ADC_and_LED_blink.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F4550.h
+
+Units:
+    C:\Users\Daniel\Documents\GitHub\PIC-101\Study 02 - ADC Example\Source Code\ADC_and_LED_blink.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ADC_and_LED_blink.err
+    Ext Symbols: ADC_and_LED_blink.esym
+    INHX32:      ADC_and_LED_blink.hex
+    Symbols:     ADC_and_LED_blink.sym
+    List:        ADC_and_LED_blink.lst
+    Debug/COFF:  ADC_and_LED_blink.cof
+    Project:     ADC_and_LED_blink.PJT
+    Call Tree:   ADC_and_LED_blink.tre
+    Statistics:  ADC_and_LED_blink.sta
